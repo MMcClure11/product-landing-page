@@ -58,3 +58,12 @@ a {
   color: #412707;
   text-decoration: none;
 }
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: 50px;
+}
