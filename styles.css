@@ -67,3 +67,7 @@ a {
   height: 200px;
   margin-top: 50px;
 }
+
+#hero > h2 {
+  margin-bottom: 20px;
+}
