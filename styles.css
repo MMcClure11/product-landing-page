@@ -21,5 +21,20 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(252, 253, 253);
+}
+
+.logo {
+  width: 60vw;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
 }
