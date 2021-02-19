@@ -88,6 +88,12 @@ nav > ul {
   }
 }
 
+@media (max-width: 650px) {
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
 li {
   list-style: none;
 }
