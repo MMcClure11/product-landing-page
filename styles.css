@@ -82,6 +82,12 @@ nav > ul {
   justify-content: space-around;
 }
 
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
 li {
   list-style: none;
 }
