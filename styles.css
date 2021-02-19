@@ -13,6 +13,12 @@ body {
   position: relative;
 }
 
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
 header {
   position: fixed;
   top: 0;
@@ -24,8 +30,18 @@ header {
   background-color: rgb(252, 253, 253);
 }
 
+
+
 .logo {
   width: 60vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
 }
 
 .logo > img {
@@ -57,6 +73,12 @@ li {
 a {
   color: #412707;
   text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
+  }
 }
 
 #hero {
