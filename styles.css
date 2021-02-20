@@ -218,3 +218,7 @@ form {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.product > h2 {
+  margin-top: 15px;
+}
