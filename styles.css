@@ -230,3 +230,10 @@ form {
 .product > ol > li {
   padding: 5px 0;
 }
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
