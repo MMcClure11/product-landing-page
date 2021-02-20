@@ -209,3 +209,12 @@ form {
   border: 1px solid #000;
   border-radius: 3px;
 }
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
