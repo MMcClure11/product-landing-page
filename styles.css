@@ -171,14 +171,21 @@ form {
   padding: 5px;
 }
 
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 800px) {
   #pricing {
     flex-direction: column;
   }
 }
 
-#how-it-works {
-  margin-top: 50px;
+#pricing {
+  margin-top: 60px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
