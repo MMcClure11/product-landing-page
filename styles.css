@@ -158,6 +158,19 @@ form {
   justify-items: center;
 }
 
+.grid {
+  display: flex;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
 @media (max-width: 800px) {
   #pricing {
     flex-direction: column;
