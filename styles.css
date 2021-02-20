@@ -190,15 +190,6 @@ form {
   }
 }
 
-@media (max-width: 800px) {
-  .product {
-      max-width: 300px;
-      width: 100%;
-      margin: 0 auto;
-      margin-bottom: 10px;
-  }
-}
-
 .product {
   display: flex;
   flex-direction: column;
@@ -208,6 +199,15 @@ form {
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
+}
+
+@media (max-width: 800px) {
+  .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+  }
 }
 
 .product > .level {
